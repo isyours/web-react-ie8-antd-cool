@@ -1,0 +1,144 @@
+#root {
+    background: #b5c8dc;
+    height: 100%;
+    min-width: 650px;
+}
+
+#root>div {
+    background: #b5c8dc;
+    height: 100%;
+}
+
+#root .logo-p {
+    background: #263858;
+    padding: 0 50px;
+}
+
+#root .logo-p .logo-i {
+    width: 80%;
+    margin: auto;
+}
+
+
+#root .logo-p .logo-i .logo .logo-name {
+    font-size: xx-large;
+    font-family: SimSun, serif;
+    color: #c6ddf1;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 2px 3px 2px #a79e74;
+}
+
+#root .logo-p .logo-i .logo .logo-slogan {
+    margin-left: 5px;
+    font-size: large;
+    font-family: SimSun, serif;
+    font-weight: 500;
+    color: #c6ddf1;
+    font-style: italic;
+    text-shadow: 1px 1px 1px #a79e74;
+}
+
+#root .main-content {
+    width: 80%;
+    margin: auto;
+}
+
+#root .ant-layout {
+    background: #c6ddf1;
+    height: 100%;
+}
+
+#root .ant-layout .ant-layout-content {
+    padding: 0 0.5em;
+    background: #c6ddf1;
+}
+
+#root .ant-layout .ant-layout-footer {
+    background: #415d87;
+}
+
+#root .ant-layout .ant-layout-footer .main-content > span, #root .ant-layout .ant-layout-footer .main-content > a {
+    color: #b5c8dc;
+}
+
+#root .ant-layout .ant-layout-header {
+    background: #415d87;
+    height: 64px;
+    min-width: 600px;
+}
+
+#root .ant-layout .ant-layout-header .main-content .logo {
+    height: 64px;
+    width: 100%;
+    padding-bottom: 2px;
+}
+
+#root .ant-layout .ant-layout-header .main-content >ul {
+    background: #415d87;
+    border-bottom: 1px solid #c6ddf1;
+}
+
+#root .main-content .ant-row .gutter-row .content-nav {
+    padding: 24px;
+    background: #252a1e;
+}
+
+#root .main-content .ant-row .gutter-row .content-nav > h2 {
+    color: #c4ac98;
+}
+
+#root .ant-layout .ant-layout-header .main-content .ant-menu .ant-menu-item > a {
+    color: #b5c8dc;
+    font-size: large;
+}
+
+#root .ant-layout .ant-layout-header .ant-menu .ant-menu-item {
+    height: 64px;
+}
+
+#root .ant-layout .basic-carousel-content {
+    background: #fff;
+}
+
+#root .ant-layout .basic-carousel-content .basic-carousel-content-image {
+    margin: auto;
+    width: 1000px;
+    height: 250px;
+}
+
+#root .ant-layout .basic-carousel-content .basic-carousel-content-image>img {
+    width: 100%;
+}
+
+#root .ant-layout .basic-carousel-content .basic-carousel-content-text {
+    position: absolute;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 700;
+    color: #2a238a;
+    opacity: 0.8;
+}
+
+#root .ant-layout .basic-carousel-content .basic-carousel-content-text-slogan {
+    font-size: xx-large;
+}
+
+#root .ant-carousel .slick-dots > li > button {
+    background:black;
+}
+
+#root .ant-carousel .slick-dots > li > button {
+    background:black;
+}
+
+#root .ant-carousel .slick-dots li.slick-active button:hover, .ant-carousel .slick-dots li.slick-active button:focus {
+    background:black;
+    opacity: 1;
+}
+
+#root .row-content>img {
+    width: 100%;
+}

@@ -1,7 +1,6 @@
 const webpack = require('atool-build/lib/webpack');
 
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-//html插件
 const htmlwebpackplugin = require('html-webpack-plugin');
 
 const fs = require('fs');
@@ -21,7 +20,6 @@ module.exports = function(webpackConfig) {
     loader: 'es3ify-loader',
   });
 
-  //分类文件夹,填写对应的from位置
   webpackConfig.plugins.unshift(
     new CopyWebpackPlugin([
         {
@@ -46,7 +44,6 @@ module.exports = function(webpackConfig) {
   );
 
 
-  //多页面入口--首页和用户页面
   webpackConfig.plugins.push(
     new htmlwebpackplugin({
       filename:'index.html',
@@ -56,10 +53,24 @@ module.exports = function(webpackConfig) {
       excludeChunks:['common']
     }),
     new htmlwebpackplugin({
-      filename:'user.html',
-      template: './src/page/user.ejs',
+      filename:'company.html',
+      template: './src/page/company.ejs',
       inject: "body",
-      chunks:['user'],
+      chunks:['company'],
+      excludeChunks:['common']
+    }),
+    new htmlwebpackplugin({
+      filename:'projects.html',
+      template: './src/page/projects.ejs',
+      inject: "body",
+      chunks:['projects'],
+      excludeChunks:['common']
+    }),
+    new htmlwebpackplugin({
+      filename:'contact.html',
+      template: './src/page/contact.ejs',
+      inject: "body",
+      chunks:['contact'],
       excludeChunks:['common']
     })
   );
