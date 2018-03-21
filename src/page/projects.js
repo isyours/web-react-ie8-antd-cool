@@ -87,6 +87,28 @@ class App extends React.Component{
                                         <img className="snapshot" src={"/images/underg.jpg"} />
                                     </div>
                                 </Col>
+                                <Col span={2}>
+                                    <div>&nbsp;</div>
+                                </Col>
+                                <Col span={5}>
+                                    <div className="row-title">
+                                        <h2>各种家装</h2>
+                                    </div>
+                                    <div className="row-content">
+                                        <img className="snapshot" src={"/images/jiazhuang.jpg"} />
+                                    </div>
+                                </Col>
+                                <Col span={2}>
+                                    <div>&nbsp;</div>
+                                </Col>
+                                <Col span={5}>
+                                    <div className="row-title">
+                                        <h2>水电维修</h2>
+                                    </div>
+                                    <div className="row-content">
+                                        <img className="snapshot" src={"/images/shuidian.jpg"} />
+                                    </div>
+                                </Col>
                             </Row>
                         </div>
                     </div>

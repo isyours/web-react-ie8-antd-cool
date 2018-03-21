@@ -14,8 +14,8 @@ const ReactDOM = require('react-dom');
 class App extends React.Component{
     render(){
         const carouselContent = {
-            phone: "联系电话：13810411101",
-            addr: "公司地址：黑龙江省哈尔滨市火车站"
+            phone: "联系方式：18346067833 13115553661 吴经理， 17603681122 杨经理",
+            addr: "公司地址：黑龙江省哈尔滨市南岗区海城街162号"
         };
         return(
             <Layout>
@@ -65,12 +65,12 @@ class App extends React.Component{
                             </div>
                             <div className="basic-carousel-content">
                                 <div className="basic-carousel-content-image">
-                                    <img src={"/images/3.jpg"} />
+                                    <img src={"/images/truck.jpg"} />
                                 </div>
                             </div>
                             <div className="basic-carousel-content">
                                 <div className="basic-carousel-content-image">
-                                    <img src={"/images/1.jpg"} />
+                                    <img src={"/images/3.jpg"} />
                                 </div>
                             </div>
                         </Carousel>
@@ -94,9 +94,8 @@ class App extends React.Component{
                                         <h2>联系我们</h2>
                                     </div>
                                     <div className="row-content">
-                                        <p className="row-line-content">咨询电话：400-1234567</p>
-                                        <p className="row-line-content">邮箱：123456@qq.com</p>
-                                        <p className="row-line-content">公司地址：黑龙江省哈尔滨市火车站</p>
+                                        <p className="row-line-content">咨询电话：18346067833 13115553661 吴经理， 17603681122 杨经理</p>
+                                        <p className="row-line-content">公司地址：黑龙江省哈尔滨市南岗区海城街162号</p>
                                     </div>
                                 </Col>
                             </Row>
@@ -132,12 +131,33 @@ class App extends React.Component{
                                     </div>
                                 </Col>
                             </Row>
+                            <Row>
+                                <Col span={12}>
+                                    <div className="row-title">
+                                        <h2>各种家装</h2>
+                                    </div>
+                                    <div className="row-content">
+                                        <img className="snapshot" src={"/images/jiazhuang.jpg"} />
+                                    </div>
+                                </Col>
+                                <Col span={1}>
+                                    <div>&nbsp;</div>
+                                </Col>
+                                <Col span={11}>
+                                    <div className="row-title">
+                                        <h2>水电维修</h2>
+                                    </div>
+                                    <div className="row-content">
+                                        <img className="snapshot" src={"/images/shuidian.jpg"} />
+                                    </div>
+                                </Col>
+                            </Row>
                         </div>
                     </div>
                 </Content>
                 <Footer>
                     <div className="main-content" style={{ textAlign: 'center' }}>
-                        Design by <a href="https://www.gkwen.com">Gkwen</a>
+                        Design by <a href="http://www.chlde.com">玉锟</a>
                     </div>
                 </Footer>
             </Layout>
